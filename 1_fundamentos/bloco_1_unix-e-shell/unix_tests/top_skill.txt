@@ -1,0 +1,8 @@
+Bash
+cat
+chmod
+Internet
+jobs
+linux
+Shell
+Unix

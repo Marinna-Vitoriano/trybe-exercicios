@@ -1,8 +1,8 @@
-Internet
-Unix
 Bash
-Shell
-chmod
-cat
-jobs
-linux
+CSS
+Git
+HTML
+Internet
+JavaScript
+Linux
+Unix

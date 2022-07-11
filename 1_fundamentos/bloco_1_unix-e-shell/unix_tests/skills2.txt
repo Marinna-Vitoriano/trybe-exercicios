@@ -1,8 +1,0 @@
-Bash
-CSS
-Git
-HTML
-Internet
-JavaScript
-Linux
-Unix

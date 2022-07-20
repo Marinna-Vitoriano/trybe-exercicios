@@ -1,3 +1,4 @@
+// if / else
 // Crie uma constante que receba a nota de uma pessoa candidata em um desafio técnico, e atribua a ela um valor entre 1 e 100
 const nota = 62;
 /* Implemente uma lógica que verifique se a pessoa candidata foi aprovada, reprovada ou se ela está na lista de espera. Para isso, considere as seguintes informações:
@@ -19,6 +20,7 @@ else {
 // Altere o valor da nota para verificar se as condições que você implementou funcionam
 
 
+// and
 // Crie uma constante chamada "currentHour" que recebe um número entre 4 e 24 de sua escolha, para representar as horas do dia
 const currentHour = 12;
 
@@ -52,3 +54,40 @@ else {
 // Agora imprima a variável message fora das suas condições
 console.log(message);
 
+
+// or
+// Crie uma variável chamada "weekDay" que recebe a string "quarta-feira"
+let weekDay = 'domingo';
+
+/* Implemente condicionais para que:
+Se nossa variável "weekDay" for "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira" ou "sexta-feira", imprima "Oba, mais um dia de aprendizado na Trybe >:D".
+Se for algum dia de fim de semana, imprima "FINALMENTE, descanso merecido UwU" */
+if (weekDay === 'segunda-feira' || weekDay === 'terça-feira' || weekDay === 'quarta-feira' || weekDay === 'quinta-feira' || weekDay === 'sexta-feira') {
+  console.log("Oba, mais um dia de aprendizado na Trybe >:D");
+}
+else {
+  console.log('Dia de descanso! Aproveite para recarregar as baterias!!');
+}
+
+
+// switch / case
+// Crie uma variável para armazenar o estado da pessoa candidata no processo seletivo, que pode ser: 'aprovada', 'lista' ou 'reprovada'
+let resultado;
+
+// Crie uma estrutura condicional com o switch/case que irá imprimir as mensagens do exercício anterior se o estado da pessoa candidata for 'aprovada', 'lista' ou 'reprovada'. Como default, imprima a mensagem de 'não se aplica'
+switch (resultado) {
+  case 'aprovado(a)':
+    console.log('Parabéns, você foi Aprovado(a)');
+    break;
+
+  case 'lista':
+    console.log('Você está em nossa Lista de Espera');
+    break;
+
+  case 'reprovado(a)':
+    console.log('Tente novamente!');
+    break;
+
+  default:
+    console.log('não se aplica');
+}

@@ -20,4 +20,4 @@ console.log(birthYear);
 birthCity = "BH";
 console.log(birthCity);
 
-Const é um tipo de variável que não pode ser reatribuída.
+// Const é um tipo de variável que não pode ser reatribuída.

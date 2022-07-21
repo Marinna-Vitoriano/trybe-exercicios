@@ -33,13 +33,13 @@ const e = 82;
 const f = 76;
 const g = 41;
 if (e > f && e > g) {
-  console.log(e + ' ' + 'é o maior número');
+  console.log(e + ' é o maior número');
 }
 else if (f > e && f > g) {
-  console.log(f + ' ' + 'é o maior número');
+  console.log(f + ' é o maior número');
 }
 else {
-  console.log(g + ' ' + 'é o maior número')
+  console.log(g + ' é o maior número')
 }
 
 // Faça um programa que, dado um valor definido numa constante, retorne "positive" se esse valor for positivo, "negative" se for negativo e "zero" caso contrário.
@@ -112,4 +112,4 @@ Fazendo a conta, temos: (7,5% de R$ 2.670,00) - R$ 142,80 = R$ 57,45
 O último cálculo para conseguir o salário líquido é R$ 2.670,00 - R$ 57,45 (salário-base - valor IR) = R$ 2.612,55.
 Resultado: R$ 2.612,55.
 Dica: que tal identificar as alíquotas com variáveis de nomes explicativos?
-Dê seu feedback
+Dê seu feedback*/

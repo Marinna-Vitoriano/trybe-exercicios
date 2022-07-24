@@ -70,3 +70,8 @@ console.log(newArray);
 for (let index = 0; index < newArray.length; index += 1) {
     console.log(newArray[index] / 2);
 }
+
+
+// Bônus
+// Ordene o array numbers em ordem crescente e imprima seus valores
+console.log(numbers.sort());
